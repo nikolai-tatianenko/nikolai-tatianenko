@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+* Next.js 13.4 MDX blog template: https://github.com/nikolai-tatianenko/nextjs13-mdx-blog
+* Microfrontend Examples: https://github.com/nikolai-tatianenko/microfrontends-examples
+* Realtime apps examples:https://github.com/nikolai-tatianenko/realtime-examples
+* Nosql Snippets: https://github.com/nikolai-tatianenko/nosql_presentation
