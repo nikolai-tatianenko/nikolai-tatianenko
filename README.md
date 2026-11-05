@@ -59,10 +59,10 @@ Engineering leader with 18+ years in software engineering and 12+ in leadership.
 
 | Repo | Stack |
 |---|---|
+| [Quality Gates](https://github.com/nikolai-tatianenko/quality-gates) | Node.js · CI/CD · Lighthouse |
 | [microfrontends-examples](https://github.com/nikolai-tatianenko/microfrontends-examples) | Microfrontends |
 | [realtime-examples](https://github.com/nikolai-tatianenko/realtime-examples) | WebSockets · Realtime |
 | [nosql_presentation](https://github.com/nikolai-tatianenko/nosql_presentation) | NoSQL |
-| [lighthouse-nodejs-cicd](https://github.com/nikolai-tatianenko/lighthouse-nodejs-cicd) | Node.js · CI/CD · Lighthouse |
 
 ---
 
