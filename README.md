@@ -55,11 +55,33 @@ Engineering leader with 18+ years in software engineering and 12+ in leadership.
 
 ---
 
+### 🚦 Featured project: QualityGate
+
+**[QualityGate](https://github.com/nikolai-tatianenko/quality-gates)** runs the checks a project already has (lint, types, tests, Lighthouse, scanners) and turns them into **one PASS / BLOCK decision** with findings you can act on and evidence you can inspect. The same declared checks run locally, in Git hooks, in CI and from an AI coding agent over MCP, so a person and an agent get the same verdict.
+
+**Why I built it:** lint, tests and scanners are scattered across scripts, CI jobs and agent prompts, and a green pipeline can hide a tool that crashed, timed out or never ran. QualityGate makes failures explicit: a broken tool, a missing report or a timeout can never turn into a pass.
+
+| | |
+|---|---|
+| 🔌 **Interfaces** | CLI · MCP server for agents (Claude Code demo included) · React dashboard · static HTML report |
+| 🧩 **Plugins** | Command gates, report parsers (JUnit, NUnit, Playwright, ESLint, axe-core, Unity) and ecosystem detectors for Node, Python, Unity, Playwright and Maestro |
+| ⚙️ **Setup** | `qualitygate setup` reads a repo (including pnpm monorepos) and proposes gates; slow or browser-bound ones are listed as "found but not enabled" |
+| ⚡ **Speed** | Parallel gates with dependencies, `--only`, `--changed` and an input-hash cache |
+| 🛡️ **Trust** | Exit-code contract (PASS, BLOCK, error, timeout, interrupted), a step registry that says how many checks actually ran, read-only shared dashboards, a documented threat model |
+| 🔁 **CI** | GitHub, GitLab and Bitbucket templates, commit status, sticky PR comment, Slack alerts, SARIF export for code scanning |
+| ✅ **Quality** | TypeScript strict · ~200 tests · 100% line coverage · tried on a real pnpm monorepo with Vitest and Playwright |
+
+**Check → read the cause → fix → check again.** In progress: run history and trends, dependency and secret scanner parsers, a live terminal view, plugin signing; desktop (Tauri) and Chrome extension clients are planned. MIT licensed.
+
+[Repository](https://github.com/nikolai-tatianenko/quality-gates) · [Quickstart](https://github.com/nikolai-tatianenko/quality-gates#try-it-locally) · [Roadmap](https://github.com/nikolai-tatianenko/quality-gates/blob/main/docs/QUALITYGATE_DETAILED_ROADMAP.md)
+
+---
+
 ### 📦 Open source
 
 | Repo | Stack |
 |---|---|
-| [Quality Gates](https://github.com/nikolai-tatianenko/quality-gates) | Node.js · CI/CD · Lighthouse |
+| [Quality Gates](https://github.com/nikolai-tatianenko/quality-gates) | TypeScript · Node.js · CLI · MCP · React · CI/CD |
 | [microfrontends-examples](https://github.com/nikolai-tatianenko/microfrontends-examples) | Microfrontends |
 | [realtime-examples](https://github.com/nikolai-tatianenko/realtime-examples) | WebSockets · Realtime |
 | [nosql_presentation](https://github.com/nikolai-tatianenko/nosql_presentation) | NoSQL |
